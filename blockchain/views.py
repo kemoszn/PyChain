@@ -6,7 +6,6 @@ from uuid import uuid4
 import socket
 from urllib.parse import urlparse
 from django.http import JsonResponse, HttpResponse, HttpRequest
-from django.contrib.sites.shortcuts import get_current_site
 from django.views.decorators.csrf import csrf_exempt
 
 
@@ -25,7 +24,6 @@ class Blockchain:
                  'previous_hash': previous_hash,
                  'transactions': self.transactions}
         self.transactions = []
-        #self.connected_nodes.append(node_address)
         self.chain.append(block)
         return block
 

@@ -50,7 +50,7 @@ class Send extends Component {
         <Container>
   <br/>
   <h3><b>SudoCoin</b></h3>
-  <h4><b style={{color: '#007bff'}}>Send dummy crypto to anyone.</b> </h4>
+  <h4><b style={{color: '#007bff'}}>Send unlimited dummy crypto to anyone.</b> </h4>
         <Form onSubmit={this.handleSubmit}>
         <Form.Group as={Row}>
          <Form.Label column sm="2">
