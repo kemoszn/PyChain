@@ -16,6 +16,7 @@
 $ python manage.py migrate
 $ python manage.py runserver 
 ```
-7. Make sure that everything is working as expected by going to 127.0.0.1:8000/get_chain  
+7. Make sure that everything is working as expected by going to 127.0.0.1:8000/get_chain 
+8. Run NodeJS server  from https://github.com/kemoszn/PyChain/blob/master/frontend/README.md
 
-8. **Done!**
+9. **Done!**
